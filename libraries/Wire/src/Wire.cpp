@@ -404,12 +404,15 @@ void TwoWire::EventCallback(uint32_t events)
     
 	if (events & I2C_EVENT_TRANSMIT_REQUEST) {
 	    _tx_write = 0;
+		_tx_active = true;
 
 	    if(_requestCallback) {
 		(*_requestCallback)();
 	    }
       
 	    stm32l4_i2c_service(_i2c, &_tx_data[0], _tx_write);
+
+		_tx_active = false;
 	}
     } else {
 	if (events & (I2C_EVENT_ADDRESS_NACK | I2C_EVENT_DATA_NACK | I2C_EVENT_ARBITRATION_LOST | I2C_EVENT_BUS_ERROR | I2C_EVENT_OVERRUN | I2C_EVENT_RECEIVE_DONE | I2C_EVENT_TRANSMIT_DONE | I2C_EVENT_TRANSFER_DONE)) {
