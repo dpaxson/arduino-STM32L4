@@ -1,4 +1,5 @@
-TOOLS    = /opt/gcc-arm-none-eabi-4.8.3-2014q1
+#TOOLS    = /opt/gcc-arm-none-eabi-4.8.3-2014q1
+TOOLS    = /opt/gcc-arm-none-eabi-7-2018-q2-update
 CPP      = $(TOOLS)/bin/arm-none-eabi-cpp
 CC       = $(TOOLS)/bin/arm-none-eabi-gcc
 CXX      = $(TOOLS)/bin/arm-none-eabi-g++

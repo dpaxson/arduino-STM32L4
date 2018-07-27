@@ -252,6 +252,12 @@ static uint32_t stm32l4_i2c_slave_address_match(stm32l4_i2c_t *i2c)
 
 static void stm32l4_i2c_event_interrupt(stm32l4_i2c_t *i2c)
 {
+	if (i2c->ll_callback)
+	{
+		i2c->ll_callback(i2c);
+		return;
+	}
+
     I2C_TypeDef *I2C = i2c->I2C;
     uint32_t i2c_cr2, i2c_isr, count, events;
 
@@ -668,6 +674,11 @@ static void stm32l4_i2c_error_interrupt(stm32l4_i2c_t *i2c)
     {
 	(*i2c->callback)(i2c->context, events);
     }
+}
+
+void stm32l4_i2c_override_irq_handler(stm32l4_i2c_t *i2c, stm32l4_i2c_ll_callback_t ll_callback)
+{
+	i2c->ll_callback = ll_callback;
 }
 
 bool stm32l4_i2c_create(stm32l4_i2c_t *i2c, unsigned int instance, const stm32l4_i2c_pins_t *pins, unsigned int priority, unsigned int mode)

@@ -1,0 +1,867 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cores">
+      <UniqueIdentifier>{50f1a657-0e42-4159-97cc-230edad8de3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cores\stm32l4">
+      <UniqueIdentifier>{27ec569b-ae65-4547-a9f3-0ce00b8dfcac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cores\stm32l4\avr">
+      <UniqueIdentifier>{c68ac974-2125-4bbd-8e60-b57f9436b434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{2e4a47fa-2d53-499b-9d1f-e06346db264c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\CMSIS">
+      <UniqueIdentifier>{ff430629-644a-4894-af3a-5d88e7ead2a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\CMSIS\Include">
+      <UniqueIdentifier>{95bbeff0-62fe-4d4f-82c7-cdc426727ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\CMSIS\Device">
+      <UniqueIdentifier>{aba04626-33d5-46b0-bf1a-076d95e51a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\CMSIS\Device\ST">
+      <UniqueIdentifier>{0a33e15e-a444-4065-bb60-ed9a73ca3ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\CMSIS\Device\ST\STM32L4xx">
+      <UniqueIdentifier>{7c488cbb-e5c9-4cd4-beea-135b8e137547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\CMSIS\Device\ST\STM32L4xx\Include">
+      <UniqueIdentifier>{1f3d4097-c126-4067-914d-dd59fed52152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\CMSIS\Device\ST\STM32L4xx\Source">
+      <UniqueIdentifier>{6c38d777-dfd6-4e3d-85fb-498ba9b7289d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx">
+      <UniqueIdentifier>{905a9edf-1683-4c29-87e4-0eeb353b1404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Include">
+      <UniqueIdentifier>{729d4cc2-cdc5-4833-bff7-dcb1736720ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source">
+      <UniqueIdentifier>{ecc5b86a-5c20-4634-9ebb-df9a7ab6b3aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="variants">
+      <UniqueIdentifier>{32eee3fe-e0ce-4627-9e36-110720fe989d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="variants\STM32L432KC-Ladybug">
+      <UniqueIdentifier>{cd8a7af2-f62c-4eb9-8524-b7b1ea0465f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="variants\STM32L432KC-NUCLEO">
+      <UniqueIdentifier>{50f7ec69-cedd-4cf3-996f-81db2c932450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="variants\STM32L433CC-Butterfly">
+      <UniqueIdentifier>{d673604e-60ba-4098-b01f-39d146ebb3b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="variants\STM32L476RE-Dragonfly">
+      <UniqueIdentifier>{7d2be744-b5f0-4835-8124-4def5f21320f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="variants\STM32L476RG-NUCLEO">
+      <UniqueIdentifier>{c801c728-d996-4fbf-ae62-de1ddab31eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="variants\STM32L496RG-Dragonfly">
+      <UniqueIdentifier>{bdcf0735-63af-4420-8d87-0b422de1f056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries">
+      <UniqueIdentifier>{37b62770-be67-4b14-826a-d8866ba796ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\EEPROM">
+      <UniqueIdentifier>{821de47e-acf6-4399-b37d-45bb86d415c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\I2S">
+      <UniqueIdentifier>{4dc65f39-ec36-4b8e-84ed-e00de038ad32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\RTC">
+      <UniqueIdentifier>{0a5f73c6-2de7-4def-9c13-c52e0a73ca21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\Servo">
+      <UniqueIdentifier>{d561605d-15b0-446c-ae88-bb65a5b6aedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\SPI">
+      <UniqueIdentifier>{af1fcf43-73ac-4c50-92de-eb3ac355ea11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\Wire">
+      <UniqueIdentifier>{a6d9416b-2f56-49bc-b85b-37ff74079f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\Wire\src">
+      <UniqueIdentifier>{503a2108-b955-4b0c-a89e-a0850894840d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\EEPROM\src">
+      <UniqueIdentifier>{1f980892-43cc-4fd2-b7ba-0bd72c168c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\I2S\src">
+      <UniqueIdentifier>{158c88d4-dc19-4a8a-86c2-c8b1415ec2d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\DAP">
+      <UniqueIdentifier>{106278d2-10d2-4562-80db-b6baed9e5215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\RTC\src">
+      <UniqueIdentifier>{47a5321a-070b-4bed-981d-d1220116ed8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\Servo\src">
+      <UniqueIdentifier>{7f70ca72-9d64-45f7-9305-5216046aad26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\SPI\src">
+      <UniqueIdentifier>{523949a3-85ab-48d0-b7e6-3d86917b78ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\USB">
+      <UniqueIdentifier>{af03c544-af44-432b-bf8b-dc970b2adefd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\USB\HAL">
+      <UniqueIdentifier>{28961409-7aac-431d-add0-e0f40dd8d8bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\USB\HAL\Inc">
+      <UniqueIdentifier>{21a4ebcd-bc9f-4b4a-bd55-d119e8788729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\USB\HAL\Src">
+      <UniqueIdentifier>{039964d6-e4a2-462e-bad5-9dd720b34fe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\USB\HAL\Inc\Legacy">
+      <UniqueIdentifier>{c5122f1d-6484-4b81-9b62-1e79628c0568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\USB\Class">
+      <UniqueIdentifier>{ba575cfe-b1d7-44fb-adfc-426b9c0365ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\USB\Core">
+      <UniqueIdentifier>{b921c491-0c98-49cf-a952-dc4b8e511057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\USB\Core\Inc">
+      <UniqueIdentifier>{02f54124-60d6-49c9-8ace-6f1806fad27b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\USB\Core\Src">
+      <UniqueIdentifier>{d796693a-0e95-4ac8-8639-07f7e9ef8370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\USB\Class\CDC">
+      <UniqueIdentifier>{4c981d98-e09a-4f02-b5b3-0592fc277bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\USB\Class\HID">
+      <UniqueIdentifier>{0a3ee90e-db05-405d-95a9-9d28d1d0a77e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\USB\Class\MSC">
+      <UniqueIdentifier>{955bcea0-c81d-4f36-8e19-967b8d0b14f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\USB\Class\CDC\Inc">
+      <UniqueIdentifier>{3222dee8-f295-4f60-b4d7-62f35c301f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\USB\Class\CDC\Src">
+      <UniqueIdentifier>{d9a10bb8-b273-40af-b0e9-62f0473ab6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\USB\Class\HID\Inc">
+      <UniqueIdentifier>{f2358e11-9abf-47f0-9a0a-4f0df1686ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\USB\Class\HID\Src">
+      <UniqueIdentifier>{9b8e7804-51c2-4d1f-b74e-6e10a5b498d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\USB\Class\MSC\Inc">
+      <UniqueIdentifier>{58dcfc91-a76d-4579-a6bb-4bffa3ab0bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\STM32L4xx\Source\USB\Class\MSC\Src">
+      <UniqueIdentifier>{da44d75e-c91f-4c11-ba89-fd01efd1ef2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cores\stm32l4\abi.cpp">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\CDC.cpp">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\avr\eeprom.c">
+      <Filter>cores\stm32l4\avr</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\avr\dtostrf.c">
+      <Filter>cores\stm32l4\avr</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\avr\fdevopen.c">
+      <Filter>cores\stm32l4\avr</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\FS.cpp">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\HID.cpp">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\hooks.c">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\IPAddress.cpp">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\itoa.c">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\main.cpp">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\new.cpp">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\Print.cpp">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\RingBuffer.cpp">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\STM32.cpp">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\stm32l4_wiring.c">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\stm32l4_wiring_analog.c">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\stm32l4_wiring_digital.c">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\stm32l4_wiring_interrupts.c">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\stm32l4_wiring_pulse.c">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\stm32l4_wiring_shift.c">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\stm32l4_wiring_tone.c">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\Stream.cpp">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\Uart.cpp">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\USBCore.cpp">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\WMath.cpp">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="cores\stm32l4\WString.cpp">
+      <Filter>cores\stm32l4</Filter>
+    </ClCompile>
+    <ClCompile Include="system\CMSIS\Device\ST\STM32L4xx\Source\system_stm32l4xx.c">
+      <Filter>system\CMSIS\Device\ST\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\armv7m_atomic.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\armv7m_core.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\armv7m_orchid.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\armv7m_pendsv.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\armv7m_svcall.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\armv7m_systick.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\armv7m_timer.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\boot_stm32l4xx.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\dosfs_core.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\dosfs_device.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\dosfs_sflash.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\dosfs_storage.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_adc.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_clib.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_dac.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_dma.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_exti.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_flash.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_gpio.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_i2c.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_iap.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_iwdg.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_nvic.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_qspi.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_rtc.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_sai.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_sdmmc.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_sdspi.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_servo.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_spi.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_system.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_timer.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_uart.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_usbd_cdc.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_usbd_dap.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\stm32l4_usbd_hid.c">
+      <Filter>system\STM32L4xx\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\STM32L432KC-Ladybug\variant.cpp">
+      <Filter>variants\STM32L432KC-Ladybug</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\STM32L496RG-Dragonfly\variant.cpp">
+      <Filter>variants\STM32L496RG-Dragonfly</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\STM32L433CC-Butterfly\variant.cpp">
+      <Filter>variants\STM32L433CC-Butterfly</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\STM32L476RG-NUCLEO\variant.cpp">
+      <Filter>variants\STM32L476RG-NUCLEO</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\STM32L476RE-Dragonfly\variant.cpp">
+      <Filter>variants\STM32L476RE-Dragonfly</Filter>
+    </ClCompile>
+    <ClCompile Include="variants\STM32L432KC-NUCLEO\variant.cpp">
+      <Filter>variants\STM32L432KC-NUCLEO</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Wire\src\Wire.cpp">
+      <Filter>libraries\Wire\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\I2S\src\I2S.cpp">
+      <Filter>libraries\I2S\src</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\DAP\DAP.c">
+      <Filter>system\STM32L4xx\Source\DAP</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\RTC\src\RTC.cpp">
+      <Filter>libraries\RTC\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\Servo\src\Servo.cpp">
+      <Filter>libraries\Servo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\SPI\src\SPI.cpp">
+      <Filter>libraries\SPI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\USB\usbd_cdc_msc.c">
+      <Filter>system\STM32L4xx\Source\USB</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\USB\usbd_conf.c">
+      <Filter>system\STM32L4xx\Source\USB</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\USB\usbd_desc.c">
+      <Filter>system\STM32L4xx\Source\USB</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\USB\HAL\Src\stm32l4xx_hal_pcd.c">
+      <Filter>system\STM32L4xx\Source\USB\HAL\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\USB\HAL\Src\stm32l4xx_hal_pcd_ex.c">
+      <Filter>system\STM32L4xx\Source\USB\HAL\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\USB\HAL\Src\stm32l4xx_ll_usb.c">
+      <Filter>system\STM32L4xx\Source\USB\HAL\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\DAP\SW_DP.c">
+      <Filter>system\STM32L4xx\Source\DAP</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\USB\Core\Src\usbd_core.c">
+      <Filter>system\STM32L4xx\Source\USB\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\USB\Core\Src\usbd_ctlreq.c">
+      <Filter>system\STM32L4xx\Source\USB\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\USB\Core\Src\usbd_ioreq.c">
+      <Filter>system\STM32L4xx\Source\USB\Core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\USB\Class\CDC\Src\usbd_cdc.c">
+      <Filter>system\STM32L4xx\Source\USB\Class\CDC\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\USB\Class\HID\Src\usbd_hid.c">
+      <Filter>system\STM32L4xx\Source\USB\Class\HID\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\USB\Class\MSC\Src\usbd_msc.c">
+      <Filter>system\STM32L4xx\Source\USB\Class\MSC\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\USB\Class\MSC\Src\usbd_msc_bot.c">
+      <Filter>system\STM32L4xx\Source\USB\Class\MSC\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\USB\Class\MSC\Src\usbd_msc_data.c">
+      <Filter>system\STM32L4xx\Source\USB\Class\MSC\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="system\STM32L4xx\Source\USB\Class\MSC\Src\usbd_msc_scsi.c">
+      <Filter>system\STM32L4xx\Source\USB\Class\MSC\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cores\stm32l4\Arduino.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\binary.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\Client.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\avr\eeprom.h">
+      <Filter>cores\stm32l4\avr</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\avr\dtostrf.h">
+      <Filter>cores\stm32l4\avr</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\avr\interrupt.h">
+      <Filter>cores\stm32l4\avr</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\avr\io.h">
+      <Filter>cores\stm32l4\avr</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\avr\pgmspace.h">
+      <Filter>cores\stm32l4\avr</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\FS.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\HardwareSerial.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\IPAddress.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\itoa.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\Print.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\Printable.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\RingBuffer.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\Server.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\STM32.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\stm32l4_wiring.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\stm32l4_wiring_private.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\Stream.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\Uart.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\Udp.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\USBAPI.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\WCharacter.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\WMath.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="cores\stm32l4\WString.h">
+      <Filter>cores\stm32l4</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Include\arm_common_tables.h">
+      <Filter>system\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Include\arm_const_structs.h">
+      <Filter>system\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Include\arm_math.h">
+      <Filter>system\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Include\cmsis_armcc.h">
+      <Filter>system\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Include\cmsis_armcc_V6.h">
+      <Filter>system\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Include\cmsis_gcc.h">
+      <Filter>system\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Include\core_cm0.h">
+      <Filter>system\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Include\core_cm0plus.h">
+      <Filter>system\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Include\core_cm3.h">
+      <Filter>system\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Include\core_cm4.h">
+      <Filter>system\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Include\core_cm7.h">
+      <Filter>system\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Include\core_cmFunc.h">
+      <Filter>system\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Include\core_cmInstr.h">
+      <Filter>system\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Include\core_cmSimd.h">
+      <Filter>system\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Include\core_sc000.h">
+      <Filter>system\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Include\core_sc300.h">
+      <Filter>system\CMSIS\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Device\ST\STM32L4xx\Include\stm32l4a6xx.h">
+      <Filter>system\CMSIS\Device\ST\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h">
+      <Filter>system\CMSIS\Device\ST\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Device\ST\STM32L4xx\Include\stm32l431xx.h">
+      <Filter>system\CMSIS\Device\ST\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Device\ST\STM32L4xx\Include\stm32l432xx.h">
+      <Filter>system\CMSIS\Device\ST\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Device\ST\STM32L4xx\Include\stm32l433xx.h">
+      <Filter>system\CMSIS\Device\ST\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Device\ST\STM32L4xx\Include\stm32l442xx.h">
+      <Filter>system\CMSIS\Device\ST\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Device\ST\STM32L4xx\Include\stm32l443xx.h">
+      <Filter>system\CMSIS\Device\ST\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Device\ST\STM32L4xx\Include\stm32l451xx.h">
+      <Filter>system\CMSIS\Device\ST\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Device\ST\STM32L4xx\Include\stm32l452xx.h">
+      <Filter>system\CMSIS\Device\ST\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Device\ST\STM32L4xx\Include\stm32l462xx.h">
+      <Filter>system\CMSIS\Device\ST\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Device\ST\STM32L4xx\Include\stm32l471xx.h">
+      <Filter>system\CMSIS\Device\ST\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Device\ST\STM32L4xx\Include\stm32l475xx.h">
+      <Filter>system\CMSIS\Device\ST\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h">
+      <Filter>system\CMSIS\Device\ST\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Device\ST\STM32L4xx\Include\stm32l485xx.h">
+      <Filter>system\CMSIS\Device\ST\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Device\ST\STM32L4xx\Include\stm32l486xx.h">
+      <Filter>system\CMSIS\Device\ST\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Device\ST\STM32L4xx\Include\stm32l496xx.h">
+      <Filter>system\CMSIS\Device\ST\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h">
+      <Filter>system\CMSIS\Device\ST\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\armv7m.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\armv7m_atomic.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\armv7m_bitband.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\armv7m_orchid.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\armv7m_pendsv.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\armv7m_svcall.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\armv7m_systick.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\armv7m_timer.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\dosfs_api.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\dosfs_config.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\dosfs_core.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\dosfs_port.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\dosfs_device.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\dosfs_sflash.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_adc.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_dac.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_dma.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_exti.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_flash.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_gpio.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_i2c.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_iap.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_iwdg.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_nvic.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_qspi.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_rtc.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_sai.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_sdmmc.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_sdspi.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_servo.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_spi.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_system.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_timer.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_uart.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_usbd_cdc.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_usbd_dap.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Include\stm32l4_usbd_hid.h">
+      <Filter>system\STM32L4xx\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\STM32L432KC-Ladybug\variant.h">
+      <Filter>variants\STM32L432KC-Ladybug</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\STM32L432KC-Ladybug\pins_arduino.h">
+      <Filter>variants\STM32L432KC-Ladybug</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\STM32L476RE-Dragonfly\pins_arduino.h">
+      <Filter>variants\STM32L476RE-Dragonfly</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\STM32L496RG-Dragonfly\pins_arduino.h">
+      <Filter>variants\STM32L496RG-Dragonfly</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\STM32L433CC-Butterfly\pins_arduino.h">
+      <Filter>variants\STM32L433CC-Butterfly</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\STM32L432KC-NUCLEO\pins_arduino.h">
+      <Filter>variants\STM32L432KC-NUCLEO</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\STM32L476RG-NUCLEO\pins_arduino.h">
+      <Filter>variants\STM32L476RG-NUCLEO</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\STM32L496RG-Dragonfly\variant.h">
+      <Filter>variants\STM32L496RG-Dragonfly</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\STM32L476RE-Dragonfly\variant.h">
+      <Filter>variants\STM32L476RE-Dragonfly</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\STM32L476RG-NUCLEO\variant.h">
+      <Filter>variants\STM32L476RG-NUCLEO</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\STM32L432KC-NUCLEO\variant.h">
+      <Filter>variants\STM32L432KC-NUCLEO</Filter>
+    </ClInclude>
+    <ClInclude Include="variants\STM32L433CC-Butterfly\variant.h">
+      <Filter>variants\STM32L433CC-Butterfly</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Wire\src\Wire.h">
+      <Filter>libraries\Wire\src</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\EEPROM\src\EEPROM.h">
+      <Filter>libraries\EEPROM\src</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\I2S\src\I2S.h">
+      <Filter>libraries\I2S\src</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\DAP\DAP.h">
+      <Filter>system\STM32L4xx\Source\DAP</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\DAP\DAP_config.h">
+      <Filter>system\STM32L4xx\Source\DAP</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTC\src\RTCZero.h">
+      <Filter>libraries\RTC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\RTC\src\RTC.h">
+      <Filter>libraries\RTC\src</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\Servo\src\Servo.h">
+      <Filter>libraries\Servo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\SPI\src\SPI.h">
+      <Filter>libraries\SPI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\usbd_cdc_msc.h">
+      <Filter>system\STM32L4xx\Source\USB</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\usbd_conf.h">
+      <Filter>system\STM32L4xx\Source\USB</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\usbd_desc.h">
+      <Filter>system\STM32L4xx\Source\USB</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\HAL\Inc\stm32l4xx_hal.h">
+      <Filter>system\STM32L4xx\Source\USB\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\HAL\Inc\stm32l4xx_hal_conf.h">
+      <Filter>system\STM32L4xx\Source\USB\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\HAL\Inc\stm32l4xx_hal_def.h">
+      <Filter>system\STM32L4xx\Source\USB\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\HAL\Inc\stm32l4xx_hal_pcd.h">
+      <Filter>system\STM32L4xx\Source\USB\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\HAL\Inc\stm32l4xx_hal_pcd_ex.h">
+      <Filter>system\STM32L4xx\Source\USB\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\HAL\Inc\stm32l4xx_hal_pwr_ex.h">
+      <Filter>system\STM32L4xx\Source\USB\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\HAL\Inc\stm32l4xx_hal_pwr.h">
+      <Filter>system\STM32L4xx\Source\USB\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\HAL\Inc\stm32l4xx_hal_rcc.h">
+      <Filter>system\STM32L4xx\Source\USB\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\HAL\Inc\stm32l4xx_hal_rcc_ex.h">
+      <Filter>system\STM32L4xx\Source\USB\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\HAL\Inc\stm32l4xx_ll_usb.h">
+      <Filter>system\STM32L4xx\Source\USB\HAL\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\HAL\Inc\Legacy\stm32_hal_legacy.h">
+      <Filter>system\STM32L4xx\Source\USB\HAL\Inc\Legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\Core\Inc\usbd_core.h">
+      <Filter>system\STM32L4xx\Source\USB\Core\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\Core\Inc\usbd_ctlreq.h">
+      <Filter>system\STM32L4xx\Source\USB\Core\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\Core\Inc\usbd_def.h">
+      <Filter>system\STM32L4xx\Source\USB\Core\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\Core\Inc\usbd_ioreq.h">
+      <Filter>system\STM32L4xx\Source\USB\Core\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\Class\CDC\Inc\usbd_cdc.h">
+      <Filter>system\STM32L4xx\Source\USB\Class\CDC\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\Class\HID\Inc\usbd_hid.h">
+      <Filter>system\STM32L4xx\Source\USB\Class\HID\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\Class\MSC\Inc\usbd_msc.h">
+      <Filter>system\STM32L4xx\Source\USB\Class\MSC\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\Class\MSC\Inc\usbd_msc_bot.h">
+      <Filter>system\STM32L4xx\Source\USB\Class\MSC\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\Class\MSC\Inc\usbd_msc_data.h">
+      <Filter>system\STM32L4xx\Source\USB\Class\MSC\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="system\STM32L4xx\Source\USB\Class\MSC\Inc\usbd_msc_scsi.h">
+      <Filter>system\STM32L4xx\Source\USB\Class\MSC\Inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

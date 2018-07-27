@@ -92,7 +92,10 @@ enum {
 
 #define I2C_CONTROL_RESTART            0x00000001
 
+struct _stm32l4_i2c_t;
+
 typedef void (*stm32l4_i2c_callback_t)(void *context, uint32_t events);
+typedef void (*stm32l4_i2c_ll_callback_t)(struct _stm32l4_i2c_t * i2c);
 
 #define I2C_STATE_NONE                 0
 #define I2C_STATE_INIT                 1
@@ -120,7 +123,8 @@ typedef struct _stm32l4_i2c_t {
     uint32_t                     clock;
     uint32_t                     option;
     stm32l4_i2c_callback_t       callback;
-    void                         *context;
+	stm32l4_i2c_ll_callback_t    ll_callback;
+	void                         *context;
     uint32_t                     events;
     uint16_t                     xf_address;
     uint16_t                     xf_control;
@@ -143,6 +147,7 @@ extern bool stm32l4_i2c_disable(stm32l4_i2c_t *i2c);
 extern bool stm32l4_i2c_configure(stm32l4_i2c_t *i2c, uint32_t clock, uint32_t option);
 extern bool stm32l4_i2c_notify(stm32l4_i2c_t *i2c, stm32l4_i2c_callback_t callback, void *context, uint32_t events);
 extern bool stm32l4_i2c_reset(stm32l4_i2c_t *i2c);
+extern void stm32l4_i2c_override_irq_handler(stm32l4_i2c_t *i2c, stm32l4_i2c_ll_callback_t ll_callback);
 extern bool stm32l4_i2c_receive(stm32l4_i2c_t *i2c, uint16_t address, uint8_t *rx_data, uint16_t rx_count, uint32_t control);
 extern bool stm32l4_i2c_transmit(stm32l4_i2c_t *i2c, uint16_t address, const uint8_t *tx_data, uint16_t tx_count, uint32_t control);
 extern bool stm32l4_i2c_transfer(stm32l4_i2c_t *i2c, uint16_t address, const uint8_t *tx_data, uint16_t tx_count, uint8_t *rx_data, uint16_t rx_count, uint32_t control);
